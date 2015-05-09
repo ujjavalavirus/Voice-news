@@ -17,6 +17,8 @@
                         //var prr = prr_dashboard.details;
                        // alert(prr_dashboard.length);
 
+                      // if(lang == )
+
                          for(var i=0;i<prr_dashboard.length;i++){
                          		var headline = "";
                          		var newlang = prr_dashboard[i].language;
@@ -29,6 +31,24 @@
 
 
                          }
+
+                         var lengthofnews = $(".newsheading li").length;
+ 		
+				 		var voicelist = responsiveVoice.getVoices();
+				 		
+						var vselect = $("#voiceselection");
+							//alert("sdfdsf");
+						$.each(voicelist, function() {
+							//	alert("testss");
+						    vselect.append($("<option />").val(this.name).text(this.name));
+						}); 
+
+						$("#playbutton").click(function(){
+
+							 responsiveVoice.speak($(".homepagenews").text(),'Hindi Female');
+						
+
+						});
                       
 
 
