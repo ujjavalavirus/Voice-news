@@ -39,3 +39,5 @@ border-radius: 4px;
 
 }
 .headingleavl{text-align: center;}
+.playnews{padding:18px 0px 0px 23px; position: fixed; bottom: 5%; right:5%; z-index: 999; background: #4ecdc4; border-radius: 50%; width:60px;height:60px;}
+.playnews i{color: #fff; font-size: 25px;}
