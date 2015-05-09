@@ -19,11 +19,12 @@
 	<script type="text/javascript" src="asset/js/jquery.js"></script>
 	<script type="text/javascript" src="asset/js/responsivevoice.js"></script>
 	<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="asset/js/cordova.js"></script>
 	<script type="text/javascript" src="asset/js/slidebars.min.js"></script>
 	<script type="text/javascript" src="asset/js/custom.js"></script> 
 
 </head>
-<body>	
+<body onload="onLoad() onDeviceReady()">	
 <div class='wrapper'>
 <div id="sb-site">
 		<div class="topnavigation">
@@ -78,13 +79,16 @@
 
 
  <script type="text/javascript">
-// alert("out");
- $(document).ready(function() {
 
- 		
-		
+  function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
 
-});
+    // device APIs are available
+    //
+    function onDeviceReady() {
+       alert("Sdf");
+    }
 
  (function($) {
         $(document).ready(function() {
