@@ -17,24 +17,42 @@
 
 </head>
 <body>	
-<textarea id="text" cols="45" rows="3">Hello world</textarea>
+<div class="newsheading">
+	<p>सरकार की बेरुखी से सीआरपीएफ के जवान हैं हताश</p>
+	<p>सीआरपीएफ के जवान हैं हताश</p>
+	<p>बेरुखी से सीआरपीएफ के जवान</p>
+	
+
+</div>
+
+<textarea class="text" cols="45" rows="3">Hello world</textarea>
  
 <select id="voiceselection"></select> 
  
-<input onclick="responsiveVoice.speak($('#text').val(),$('#voiceselection').val());" type="button" value="Play"/>
+<input onclick="" type="button" id="testinggg" value="Play"/>
 
  <script type="text/javascript">
 // alert("out");
  $(document).ready(function() {
+
+ 		var lengthofnews = $(".newsheading li").length;
  		
  		var voicelist = responsiveVoice.getVoices();
  		
 		var vselect = $("#voiceselection");
-			alert("sdfdsf");
+			//alert("sdfdsf");
 		$.each(voicelist, function() {
 			//	alert("testss");
 		    vselect.append($("<option />").val(this.name).text(this.name));
 		}); 
+
+		$("#testinggg").click(function(){
+
+			 responsiveVoice.speak($(".newsheading").text(),'Hindi Female');
+		
+
+		});
+		
 
 });
  	
