@@ -23,15 +23,19 @@
  
 <input onclick="responsiveVoice.speak($('#text').val(),$('#voiceselection').val());" type="button" value="Play"/>
  <script type="text/javascript">
- 	alert("test11");
- 	var voicelist = responsiveVoice.getVoices();
- 	alert("test");
-var vselect = $("#voiceselection");
-	alert("testuu");
-$.each(voicelist, function() {
-		alert("testss");
-    vselect.append($("<option />").val(this.name).text(this.name));
+ $( document ).ready(function() {
+ 
+ 		var voicelist = responsiveVoice.getVoices();
+ 		alert("test");
+		var vselect = $("#voiceselection");
+			alert("testuu");
+		$.each(voicelist, function() {
+				alert("testss");
+		    vselect.append($("<option />").val(this.name).text(this.name));
+		});
+
 });
+ 	
  </script>
 
 </body>
