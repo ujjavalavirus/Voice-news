@@ -1,82 +1,119 @@
 [
   {
     "id":1,
-    "headline":"Maoist abduct 300 in Chhattisgarh ahead of PM's visit",
-    "language":"English",
-    "tag":"Political",
-    "date":"09-05-2015",
-    "desc":"RAIPUR: Around 300 villagers have been held hostage by Naxals, who were apparently angered over their support to the construction of a bridge in Tongpal area of Chhattisgarh's Sukma district, police said. The Naxal action comes ahead of Prime Minister Narendra Modi's visit to insurgency-hit Bastar region on Saturday."
-  },
-  {
-    "id":2,
-    "headline":"20 SAI athletes go on leave to recover from trauma",
-    "language":"English",
-    "tag":"Sports",
-    "date":"09-05-2015",
-    "desc":"Jolted by the attempted suicide of their four young female colleagues, which led to the death of one, 20 athletes of the Sports Authority of India Centre here have taken leave to recover from the trauma.\"All the 20 are boys. Another 12 female athletes have also sought permission to go on leave,\" a SAI official at the Water Training Centre here told PTI.The students and their parents had requested SAI Director General Injeti Srinivas, during his visit to the campus yesterday, that they be given the break to recover from the shock of the incident."
-  },
-  {
-    "id":3,
-    "headline":"Obama nominates IIT alumni to key post",
-    "language":"English",
-    "tag":"International",
-    "date":"09-05-2015",
-    "desc":"US President Barack Obama has nominated an IIT alumni to his advisory commission on Asian Americans and Pacific Islanders (AAPIs). Obama yesterday announced the nomination of Sanjita Pradhan, an MBA from the Indian Institute of Technology, along with other nominations for several key administration post. \"These men and women bring extraordinary dedication to their roles and will serve the American people well. I look forward to working with them,\" Obama said while making the announcement. Pradhan, a Nepali American, is currently serving as an Executive Officer of the Office of Asian and Pacific Islander Affairs at the Iowa Department of Human Rights, a position she has held since 2013."
-  },
-  {
-    "id":4,
-    "headline":"Meherbani, Shukriya: Salman Khan to fans",
-    "language":"English",
-    "tag":"Bollywood",
-    "date":"09-05-2015",
-    "desc":"After the Bombay High Court suspended Salman Khan's five-year sentence in the 2002 hit-and-run case and granted him bail, the superstar took to micro-blogging website Twitter to thank his fans.\"All those who prayed for and supported me thank u meherbani shukriya,\" Salman tweeted on Friday night.The 49-year-old's sister Arpita Khan Sharma also thanked her brother's die-hard fans for their relentless support. \"This wouldn't have been possible without all your love, support & prayers. Thank you from the bottom of our hearts,\" Arpita tweeted."
-  },
-  {
-    "id":5,
-    "headline":"Varun Gandhi makes veiled jibe at Rahul",
-    "language":"English",
-    "tag":"Political",
-    "date":"09-05-2015",
-    "desc":"BJP MP from Sultanpur Varun Gandhi today made a veiled jibe asking MPs of all neighbouring districts, including Rahul Gandhi's seat Amethi, to come forward and help farmers hit by the untimely rains and hailstorm in Uttar Pradesh."
-  },
-  {
-    "id":6,
-    "headline":"सेना के पास नहीं है युद्ध लड़ने के लिए जरूरी गोला-बारूद CAG Report",
+    "imgsrc":"http://images.jagran.com/images/09_05_2015-attack09.jpg",
+    "headline":"आतंकियों ने पुलिस टुकड़ी पर फेंका ग्रेनेड 14 घायल",
     "language":"Hindi",
     "tag":"National",
     "date":"09-05-2015",
-    "desc":"नई दिल्ली: शुक्रवार को संसद में पेश हुए सीएजी रिपोर्ट के मुताबिक सेना के पास युद्ध लड़ने के लिए जरूरी गोला-बारूद नहीं है. सिर्फ 50 प्रतिशत सेना के पास वार रिजर्व है. सीएजी के मुताबिक, थलसेना को युद्ध की परिस्थिति में करीब 40 दिनों के वॉर-रिर्जव की जरूरत है. लेकिन सेना के पास सिर्फ 20 दिनों का ही गोला-बारूद है. सीएजी के मुताबिक, इस कमी के चलते सेना की तैयारियों और ट्रेनिंग पर खासा असर पड़ रहा है. सीएजी ने अपनी रिपोर्ट में रक्षा मंत्रालय और ऑर्डिनेंस फैक्ट्री बोर्ड की कार्यशैली पर सवाल उठाए हैं. रक्षा मंत्रालय ही सेना के लिए पर्याप्त गोला-बारूद के लिए जिम्मेदार है"
+    "desc":"श्जम्मू-कश्मीर में श्रीनगर के शोपियां जिले में आतंकी हमला हुआ है। आतंकिया ने बाटपोरा चौक के मुख्य बाजार में ग्रेनेड से हमला किया। इस हमले में 8 लोगों के घायल होेने की खबर है। फिलहाल इस आतंकी हमले की किसी भी संगठन ने जिम्मेदारी नहीं ली है। पूरे इलाके को सेना ने अपने कब्जे में लेकर सर्च ऑपरेशन शुरू कर दिया है।"
   },
   {
-    "id":7,
-    "headline":"मोदी का दंतेवाड़ा दौरा आज, 30 साल बाद नक्सलियों के गढ़ में होगा PM का दौरा",
+    "id":2,
+    "imgsrc":"http://media2.intoday.in/aajtak/images/stories/052015/modi-cg-s_650_050915033924.jpg",
+    "headline":"मोदी का दंतेवाड़ा दौरा आज 30 साल बाद नक्सलियों के गढ़ में होगा PM का दौरा",
     "language":"Hindi",
     "tag":"Political",
     "date":"09-05-2015",
     "desc":"प्रधानमंत्री नरेंद्र मोदी शनिवार को नक्सलियों के गढ़ दंतेवाड़ा पहुंचे. प्रधानमंत्री ने इस दौरे के दौरान करीब 24 हजार करोड़ रुपये की लागत से बनी दो योजनाओं का उद्घाटन किया. इस बीच खबर है कि नक्सलियों ने करीब 300 लोगों को बंधक बना लिया है. राज्य के गृह मंत्री रामसेवक पैंकरा ने आज तक से खास बातचीत में इस बात की पुष्टि की. बंधक बनाए गए लोगों में ज्यादार बीजेपी के कार्यकर्ता हैं जिनके रिहा होने की अभी तक कोई खबर नहीं है. इस बीच प्रधानमंत्री ने दंतेवाड़ा स्टील प्लांट का उद्घाटन और उसके बाद रावघाट से जगदलपुर के बीच बनी रेलवे ट्रैक का उद्घाटन किया"
   },
   {
-    "id":8,
-    "headline":"हमने कई मौके गंवाए: कोच फ्लेमिंग",
+    "id":3,
+    "imgsrc":"http://www.livehindustan.com/uploadimage/filephotos/year_2015/month_05/day_09/serena-sharapova-lost~09~05~2015~1431159512_storyimage.jpg",
+    "headline":"सेमीफाइनल में हारीं सेरेना और शारापोवा",
     "language":"Hindi",
     "tag":"Sports",
     "date":"09-05-2015",
-    "desc":"मुंबई इंडियन्स के खिलाफ छह विकेट की हार से निराश चेन्नई सुपरकिंग्स के कोच स्टीफन फ्लेमिंग ने कहा कि उनकी टीम को आईपीएल मुकाबले में मौकों का फायदा नहीं उठाने का खामियाजा भुगतना पड़ा। फ्लेमिंग ने मैच के बाद प्रेस कांफ्रेंस में कहा, कैच छोड़ने के कारण हमें नुकसान हुआ। हम मैच में बने हुए थे और हमने मौके बनाए लेकिन अंत में राह भटक गए। फ्लेमिंग ने कहा कि कम स्कोर वाले मैच में अनुभवी रविंद्र जडेजा की जगह अंतिम ओवर पवन नेगी को देना संभवत: गलत कदम था। उन्होंने कहा कि मुझे यकीन है कि कप्तान इस पर गौर करेगा। हमने आज कुछ चीजें सीखी।"
+    "desc":"विश्व की नंबर एक खिलाड़ी अमेरिका की सेरेना विलियम्स और गत चैंपियन रूस की मारिया शारापोवा को मैड्रिड ओपन टेनिस टूर्नामेंट के महिला एकल सेमीफाइनल मुकाबले में सनसनीखेज हार का सामना करना पड़ा। विंबलडन चैंपियन और चौथी सीड पेत्रा क्वीतोवा ने टॉप सीड सेरेना को शुक्रवार को एकतरफा अंदाज में 6-2, 6-3 से पीट दिया। क्वीतोवा की 19 बार की ग्रैंड स्लेम चैंपियन सेरेना के खिलाफ यह पहली जीत है। रूस की स्वेतलाना कुज्नेत्सोवा ने हमवतन शारापोवा को 6-2  6-4 से हराकर टूर्नामेंट से बाहर कर दिया। कुज्नेत्सोवा ने सात वर्षों में पहली बार शारापोवा को हराया। क्वीतोवा और कुज्नेत्सोवा खिताबी मुकाबले में आमने सामने होंगीं। कुज्नेत्सोवा का क्वीतोवा के खिलाफ 1-3 का करियर रिकॉर्ड है।"
   },
   {
-    "id":9,
-    "headline":"एक्सिस बैंक का पिंग पे: भारत का पहला मल्टी सोशल मनी ट्रांसफर एप",
+    "id":4,
+    "imgsrc":"http://abpnews.abplive.in/incoming/article581343.ece/alternates/FREE_768/ping%20pay.jpg",
+    "headline":"एक्सिस बैंक का पिंग प भारत का पहला मल्टी सोशल मनी ट्रांसफर एप",
     "language":"Hindi",
     "tag":"Technology",
     "date":"09-05-2015",
-    "desc":"इंदौर: देश के प्राइवेट सेक्टर की बैंक ऐक्सिस बैंक ने अपने ग्राहकों के लिये चौबीसों घंटे मनी ट्रांसफर की सुविधा उपलब्ध कराने वाली सेवा और इसका मोबाइल एप 'पिंग.पे' जारी किया. ऐक्सिस बैंक रिटेल बैंकिंग के समूह कार्यकारी एवं प्रमुख राजीव आनंद ने यहां वीडियो कांफ्रेसिंग के माध्यम से संवाददाताओं को बताया कि 'पिंग.पे' मोबाइल एप के जरिये ऐक्सिस बैंक के स्मार्ट मोबाइल फोन वाले ग्राहक अपने सोशल मीडियम व्हाट्स ऐप, फेसबुक, ट्वीटर, और ई.मेल के संपर्क वाले व्यक्ति को किसी भी समय बिना किसी एक्सट्रा मनी के मनी ट्रांशपर कर सकते हैं"
+    "desc":"देश के प्राइवेट सेक्टर की बैंक ऐक्सिस बैंक ने अपने ग्राहकों के लिये चौबीसों घंटे मनी ट्रांसफर की सुविधा उपलब्ध कराने वाली सेवा और इसका मोबाइल एप 'पिंग.पे' जारी किया. ऐक्सिस बैंक रिटेल बैंकिंग के समूह कार्यकारी एवं प्रमुख राजीव आनंद ने यहां वीडियो कांफ्रेसिंग के माध्यम से संवाददाताओं को बताया कि 'पिंग.पे' मोबाइल एप के जरिये ऐक्सिस बैंक के स्मार्ट मोबाइल फोन वाले ग्राहक अपने सोशल मीडियम व्हाट्स ऐप, फेसबुक, ट्वीटर, और ई.मेल के संपर्क वाले व्यक्ति को किसी भी समय बिना किसी एक्सट्रा मनी के मनी ट्रांशपर कर सकते हैं"
   },
   {
-    "id":10,
-    "headline":"यूके चुनाव 2015: पहली बार ब्रिटेन की संसद में पहुंचे 10 भारतवंशी",
+    "id":5,
+    "imgsrc":"http://i9.dainikbhaskar.com/thumbnail/680x588/web2images/www.bhaskar.com/2015/05/09/britain_1431146979.jpg",
+    "headline":"पहली बार ब्रिटेन की संसद में पहुंचे 10 भारतवंशी",
     "language":"Hindi",
     "tag":"International",
     "date":"09-05-2015",
-    "desc":"लंदन। ब्रिटेन के आम चुनावों में इस बार भारतवंशियों को बोलबाला रहा। रिकॉर्ड 10 भारतवंशी सांसद चुने गए। इनमें कीथ वाज (लीसेस्टर-पूर्व, लेबर), प्रीति पटेल (विट्हम, कंजरवेटिव) और इंफोसिस के सह-संस्थापक नारायण मूर्ति के दामाद ऋषि सुनाक (रिचमंड, कंजरवेटिव) भी शामिल हैं। ऋषि ने यूकेआईपी के मैथ्यू कुक को 8194 वोटों से हराया। इस चुनाव में सभी पार्टियों ने 59 भारतवंशियों को चुनाव में प्रत्याशी बनाया था। इनमें से 10 की जीत हुई है। विजयी भारतवंशियों में से 5 कंजरवेटिव पार्टी के हैं। अन्य विजयी भारतवंशी हैं- वीरेंद्र शर्मा (ईलिंग साउथहॉल, लेबर), वैलेरी वाज (वालसाल साउथ, लेबर), आलोक शर्मा (रीडिंग वेस्ट, कंजरवेटिव), शैलेष वारा (कैंब्रिजशायर उत्तर-पूर्व, कंजरवेटिव), सुएला फर्नांडिस (फेयरहैम, कंजरवेटिव), सीमा मल्होत्रा (दक्षिण-पूर्व लंदन, लेबर) और लीसा नैंडी (विगन, लेबर)।"
+    "desc":"ब्रिटेन के आम चुनावों में इस बार भारतवंशियों को बोलबाला रहा। रिकॉर्ड 10 भारतवंशी सांसद चुने गए। इनमें कीथ वाज (लीसेस्टर-पूर्व, लेबर), प्रीति पटेल (विट्हम, कंजरवेटिव) और इंफोसिस के सह-संस्थापक नारायण मूर्ति के दामाद ऋषि सुनाक (रिचमंड, कंजरवेटिव) भी शामिल हैं। ऋषि ने यूकेआईपी के मैथ्यू कुक को 8194 वोटों से हराया। इस चुनाव में सभी पार्टियों ने 59 भारतवंशियों को चुनाव में प्रत्याशी बनाया था। इनमें से 10 की जीत हुई है। विजयी भारतवंशियों में से 5 कंजरवेटिव पार्टी के हैं। अन्य विजयी भारतवंशी हैं- वीरेंद्र शर्मा (ईलिंग साउथहॉल, लेबर), वैलेरी वाज (वालसाल साउथ, लेबर), आलोक शर्मा (रीडिंग वेस्ट, कंजरवेटिव), शैलेष वारा (कैंब्रिजशायर उत्तर-पूर्व, कंजरवेटिव), सुएला फर्नांडिस (फेयरहैम, कंजरवेटिव), सीमा मल्होत्रा (दक्षिण-पूर्व लंदन, लेबर) और लीसा नैंडी (विगन, लेबर)।"
+  },
+  {
+    "id":6,
+    "imgsrc":"http://i9.dainikbhaskar.com/thumbnail/680x588/web2images/www.bhaskar.com/2015/05/09/north-korea_1431167381.jpg",
+    "headline":"नॉर्थ कोरिया ने किया सबमरीन मिसाइल का टेस्ट टेंशन में पश्चिमी मुल्क",
+    "language":"Hindi",
+    "tag":"International",
+    "date":"09-05-2015",
+    "desc":"नॉर्थ कोरिया ने सबमरीन से छोड़ी जा सकने वाली बैलिस्टिक मिसाइल के परीक्षण का दावा किया है। नॉर्थ कोरिया की सरकारी मीडिया ने इस खबर के साथ कुछ फोटोज भी जारी की है, जिसमें देश के शासक किम जोंग दूरबीन से मिसाइल लॉन्च होते हुए देख रहे हैं। हालांकि, रिपोर्ट में यह नहीं बताया गया कि टेस्ट कहां और कब किया गया। विशेषज्ञों के अनुसार, नॉर्थ कोरिया ने पिछले कुछ सालों में हथियारों में काफी इजाफा किया है, लेकिन इस बैलिस्टिक मिसाइल टेस्ट ने पश्चिमी देशाें की चिंताएं बढ़ा दी हैं। रिपोर्ट्स के अनुसार, मिसाइल टेस्ट के बाद किम जोंग उन ने कहा कि नॉर्थ कोरिया अब अपनी संप्रभुता और सुरक्षा के लिए खतरा बन रहे देशों को करारा जवाब दे सकता है। इस परीक्षण से संयुक्त राष्ट्र के उन प्रतिबंधों का उल्लंघन हुआ है, जिनके तहत नॉर्थ कोरिया पर बैलिस्टिक मिसाइल टेक्नोलॉजी विकसित करने पर रोक लगाई गई है।"
+  },
+  {
+    "id":7,
+    "imgsrc":"http://www.samacharjagat.com/mapped_sj/resources/uploads/ALL%20NEWS/09052015/India-Post-is-going-to-start-in-Delhi-from-May-11-e-Commerce-Center.jpg",
+    "headline":"भारतीय डाक विभाग 11 मई से दिल्ली में शुरू करने जा रहा है ई-कामर्स सेंटर",
+    "language":"Hindi",
+    "tag":"Technology",
+    "date":"09-05-2015",
+    "desc":"भारतीय डाक विभाग ऑनलाइन शॉपिंग के बढ़ते रझान का लाभ उठाने के लिए सोमवार से दिल्ली में अपना ई-कामर्स सेंटर शुरू करने जा रहा है। एक आधिकारिक विवरण में भारतीय डाक विभाग ने कहा है कि हाल के वक्त में देश में ई-कॉमर्स क्षेत्र में हो रही तेज ग्रोथ को देखते हुए डाक विभाग ने दिल्ली डाक सर्किल के जरिये सफदरजंग, नई दिल्ली में ई-कामर्स परियोजना स्थिापित की है। यह प्रोसेसिंग सेंटर खास तौर से सभी ई-कॉमर्स कारोबार को देखेगा।"
+  },
+  {
+    "id":8,
+    "imgsrc":"http://znb.india.com/upload//2015/5/9/modi700insurea.jpg",
+    "headline":"PM Narendra Modi launches major insurance pension schemes",
+    "language":"English",
+    "tag":"National",
+    "date":"09-05-2015",
+    "desc":"After Jan Dhan, Prime Minister Narendra Modi on Saturday launched three mega social security initiatives -- one pension and two insurance schemes. These schemes are aimed at providing affordable universal access to essential social security protection in a convenient manner linked to auto-debit facility from the bank account of a subscriber."
+  },
+  {
+    "id":9,
+    "imgsrc":"http://www.valuewalk.com/wp-content/uploads/2015/03/Google.jpg",
+    "headline":"Google Inc Inaugurates Asias First Startup Campus In Seoul",
+    "language":"English",
+    "tag":"Technology",
+    "date":"09-05-2015",
+    "desc":"Google Inc opened a campus for start-ups and business entrepreneurs in the Gangnam district of Seoul on Friday. Built in the capital city of South Korea, the site marks the first Google start-up center in Asia. Previously, the company started such sites in London and Tel Aviv, a city in Israel."
+  },
+  {
+    "id":10,
+    "imgsrc":"http://media2.intoday.in/indiatoday/images/stories//2015MAY/modi-story-650-2_050815062540_050915072807.jpg",
+    "headline":"China to have first ever centre dedicated to Mahatma Gandhi during Modi visit",
+    "language":"English",
+    "tag":"International",
+    "date":"09-05-2015",
+    "desc":"A first ever centre dedicated to Mahatma Gandhi in China will be opened next week on Saturday when Prime Minister Narendra Modi visits Shanghai, the last city on this three-day tour to China. The centre for Gandhian studies will be launched by Modi on Saturday afternoon at the prestigious Fudan University in Shanghai, shortly before the Prime Minister concludes his visit with a community reception."
+  },
+  {
+    "id":11,
+    "imgsrc":"http://si.wsj.net/public/resources/images/BN-II444_nkmiss_M_20150509015804.jpg",
+    "headline":"North Korea Claims Success in Firing Missile From Submarine",
+    "language":"English",
+    "tag":"International",
+    "date":"09-05-2015",
+    "desc":"PYONGYANG?North Korea said Saturday that it successfully test-fired a newly developed ballistic missile from a submarine in what would be the latest display of the country?s advancing military capabilities. Hours after the announcement, South Korean officials said the North fired three antiship cruise missiles into the sea off its east coast. Experts in Seoul say the North?s military demonstrations and hostile rhetoric are attempts at wresting concessions from the U.S. and South Korea, whose officials have recently talked about the possibility of holding preliminary talks with the North to test its commitment to denuclearization."
+  },
+  {
+    "id":12,
+    "imgsrc":"http://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2015/05/11/Photos/maoists.jpg",
+    "headline":"CM Raman Singh says Maoists abducted 250 villagers in Chhattisgarh",
+    "language":"English",
+    "tag":"Political",
+    "date":"09-05-2015",
+    "desc":"A hostage situation is continuing since Friday night in Sukma district of Chhattisgarh where around 250 villagers were abducted by Maoist rebels on the eve of Prime Minister Narendra Modi?s visit to neighbouring Dantewada district. Chief minister Raman Singh said anywhere between 200 and 250 villagers were abducted by the Naxals from a few villages in Sukma and efforts were being made by the local administration for their release. ?Around 200-250 villagers have been abducted and 4-5 others (locals) are negotiating their release,? Singh told journalists after conflicting claims were made by police officials on the number of villagers kidnapped. ?There is no confusion...the local administration is making efforts for their release,? he said."
+  },
+  {
+    "id":13,
+    "imgsrc":"http://i.ndtvimg.com/i/2015-05/piku_640x480_61431170897.jpg",
+    "headline":"Piku Earns High Praises and Low Revenue on Day 1",
+    "language":"English",
+    "tag":"Entertainment",
+    "date":"09-05-2015",
+    "desc":"Director Shoojit Sircar's Piku may have impressed the critics, but its box office collections tells a different story. The film, starring Deepika Padukone, Amitabh Bachchan and Irrfan Khan, collected a little above Rs 5 crore on its first day. However, according to film critic Taran Adarsh, the film may see a boost in collection on the second day."
   }
 ]

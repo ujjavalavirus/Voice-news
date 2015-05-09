@@ -1,0 +1,114 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie10"><![endif]-->
+<!--[if (IE 10)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie10"><![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en-EN" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Voice News</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="asset/css/slidebars.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="asset/css/style.css">
+	<script type="text/javascript" src="asset/js/jquery.js"></script>
+	<script type="text/javascript" src="asset/js/responsivevoice.js"></script>
+	<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="asset/js/slidebars.min.js"></script>
+	<script type="text/javascript" src="asset/js/custom.js"></script> 
+
+</head>
+<body>	
+<div class='wrapper'>
+<div id="sb-site">
+		<div class="topnavigation">
+			<div class="container-fluid">
+				<div class="row">
+				<div class="col-xs-2 sb-toggle-left">
+					<p><i class="fa fa-bars"></i></p>
+				</div>
+				<div class="col-xs-10 headingleavl">
+					<h5>Latest News</h5>
+				</div>
+				</div>
+			</div>
+				
+		</div>	
+		<div class="homepagenews" id="homepagenews">
+		
+		</div>
+
+	<!--	<div class="newsheading">
+			<p>सरकार की बेरुखी से सीआरपीएफ के जवान हैं हताश</p>
+			<p>सीआरपीएफ के जवान हैं हताश</p>
+			<p>बेरुखी से सीआरपीएफ के जवान</p>
+			
+
+		</div>
+
+		<textarea class="text" cols="45" rows="3">Hello world</textarea>
+		 
+		<select id="voiceselection"></select> 
+		 
+		<input onclick="" type="button" id="testinggg" value="Play"/> -->
+</div>
+
+<div class="sb-slidebar sb-left">
+	<div class="menulist">
+		<div class="heading">
+			<h5>Hunters</h5>
+		</div>
+		<ul class="menulisttag">
+			<li><a href="english.html?lang=English">English</a></li>	
+			<li><a href="hindi.html?lang=Hindi">हिन्दी</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="playnews" id="playbutton">
+			<i class="fa fa-play"></i>
+</div>
+
+</div>
+
+
+ <script type="text/javascript">
+// alert("out");
+ $(document).ready(function() {
+
+ 		var lengthofnews = $(".newsheading li").length;
+ 		
+ 		var voicelist = responsiveVoice.getVoices();
+ 		
+		var vselect = $("#voiceselection");
+			//alert("sdfdsf");
+		$.each(voicelist, function() {
+			//	alert("testss");
+		    vselect.append($("<option />").val(this.name).text(this.name));
+		}); 
+
+		$("#playbutton").click(function(){
+
+			 responsiveVoice.speak($(".homepagenews").text(),'Hindi Female');
+		
+
+		});
+		
+
+});
+
+ (function($) {
+        $(document).ready(function() {
+          $.slidebars();
+        });
+      }) (jQuery);
+ 	
+ </script>
+
+</body>
+</html>

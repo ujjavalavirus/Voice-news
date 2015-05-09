@@ -22,7 +22,7 @@
                          		var newlang = prr_dashboard[i].language;
                          	//	console.log(newlang);
                          		if(newlang == lang){
-                         		var headline = "<p>"+prr_dashboard[i].headline+"</p>";
+                         		var headline = "<p><a href=''>"+prr_dashboard[i].headline+"</a></p>";
 
                          		$("#homepagenews").append(headline);
                          		}
@@ -38,7 +38,7 @@
         }
 });
 
-       
+
 
 
  });
