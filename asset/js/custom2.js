@@ -15,7 +15,7 @@
         dataType: 'json',
         success: function (prr_dashboard, status) {
                         //console.log(prr_dashboard[].desc);
-                 		var headline = "<p class='desc'>"+prr_dashboard[id].desc+"</a></p>";
+                 		var headline = "<p class='desc'><img class='img-responsive' src='"+prr_dashboard[id].imgsrc+"'>"+prr_dashboard[id].desc+"</a></p>";
 
                  		$("#homepagenews").append(headline);
                          		
