@@ -27,8 +27,9 @@
  	var voicelist = responsiveVoice.getVoices();
  	alert("test");
 var vselect = $("#voiceselection");
-
+	alert("testuu");
 $.each(voicelist, function() {
+		alert("testss");
     vselect.append($("<option />").val(this.name).text(this.name));
 });
  </script>
