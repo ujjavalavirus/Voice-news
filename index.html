@@ -20,20 +20,20 @@
 <select id="voiceselection"></select> 
  
 <input onclick="responsiveVoice.speak($('#text').val(),$('#voiceselection').val());" type="button" value="Play"/>
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="asset/js/responsivevoice.js"></script>
-	<script src="asset/js/custom.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- <script type="text/javascript" src="asset/js/responsivevoice.js"></script>
+<script type="text/javascript" src="asset/js/custom.js"></script> -->
  <script type="text/javascript">
  $( document ).ready(function() {
  		alert("SDf");
- 		var voicelist = responsiveVoice.getVoices();
+ 		/*var voicelist = responsiveVoice.getVoices();
  		alert("test");
 		var vselect = $("#voiceselection");
 			alert("testuu");
 		$.each(voicelist, function() {
 			//	alert("testss");
 		    vselect.append($("<option />").val(this.name).text(this.name));
-		});
+		}); */
 
 });
  	
