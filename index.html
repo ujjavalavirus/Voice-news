@@ -23,7 +23,7 @@
 	<script type="text/javascript" src="asset/js/custom.js"></script>
 	<script type="text/javascript">
 		<!--
-		   window.location="english.html?lang=English";
+		 //  window.location="english.html?lang=English";
 		//-->
 	</script> 
 
@@ -47,19 +47,13 @@
 		<div class="homepagenews" id="homepagenews">
 			
 		</div>
-	<!--	<div class="newsheading">
-			<p>सरकार की बेरुखी से सीआरपीएफ के जवान हैं हताश</p>
-			<p>सीआरपीएफ के जवान हैं हताश</p>
-			<p>बेरुखी से सीआरपीएफ के जवान</p>
-			
+		
 
-		</div>
-
-		<textarea class="text" cols="45" rows="3">Hello world</textarea>
+		<textarea class="text" cols="45" rows="3">Google Inc opened a campus for start-ups and business entrepreneurs in the Gangnam district of Seoul on Friday. Built in the capital city of South Korea, the site marks the first Google start-up center in Asia. Previously, the company started such sites in London and Tel Aviv, a city in Israel</textarea>
 		 
 		<select id="voiceselection"></select> 
 		 
-		<input onclick="" type="button" id="testinggg" value="Play"/> -->
+		<input onclick="" type="button" id="testinggg" value="Play"/> 
 </div>
 
 <div class="sb-slidebar sb-left">
@@ -99,7 +93,7 @@
 
 		$("#testinggg").click(function(){
 
-			 responsiveVoice.speak($(".newsheading").text(),'Hindi Female');
+			 responsiveVoice.speak($(".text").val(),'Hindi Female');
 		
 
 		});
