@@ -65,12 +65,12 @@
 		</div>
 		<ul class="menulisttag">
 			<li><a href="english.html?lang=English">English</a></li>	
-			<li><a href="hindi.html?lang=Hindi">Hindi</a></li>
+			<li><a href="hindi.html?lang=Hindi">हिन्दी</a></li>
 		</ul>
 	</div>
 </div>
 
-<div class="playnews">
+<div class="playnews" id="playbutton">
 			<i class="fa fa-play"></i>
 </div>
 
@@ -92,9 +92,9 @@
 		    vselect.append($("<option />").val(this.name).text(this.name));
 		}); 
 
-		$("#testinggg").click(function(){
+		$("#playbutton").click(function(){
 
-			 responsiveVoice.speak($(".newsheading").text(),'Hindi Female');
+			 responsiveVoice.speak($(".homepagenews").text(),'Hindi Female');
 		
 
 		});
