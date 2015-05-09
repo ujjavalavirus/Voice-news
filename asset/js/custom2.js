@@ -7,34 +7,20 @@
 
  $(document).ready(function(){
 
- 	var lang =  getParameterByName('lang');
- 			
+ 	var id =  parseInt(getParameterByName('id'))-1;
+
         $.ajax({ 	
         type: 'GET', 
         url: 'asset/js/convertcsv.json', 
         dataType: 'json',
         success: function (prr_dashboard, status) {
-                        //var prr = prr_dashboard.details;
-                       // alert(prr_dashboard.length);
+                        //console.log(prr_dashboard[].desc);
+                 		var headline = "<p class='desc'>"+prr_dashboard[id].desc+"</a></p>";
 
-                      // if(lang == )
+                 		$("#homepagenews").append(headline);
+                         		
 
-                         for(var i=0;i<prr_dashboard.length;i++){
-                         		var headline = "";
-                         		var newlang = prr_dashboard[i].language;
-                         		var id = prr_dashboard[i].id;
-                         	//	console.log(newlang);
-                         		if(newlang == lang){
-                         		var headline = "<p><a href='description.html?id="+id+"'>"+prr_dashboard[i].headline+"</a></p>";
-
-                         		$("#homepagenews").append(headline);
-                         		}
-
-
-                         }
-
-                         var lengthofnews = $(".newsheading li").length;
- 		
+                     		
 				 		var voicelist = responsiveVoice.getVoices();
 				 		
 						var vselect = $("#voiceselection");
@@ -46,7 +32,7 @@
 
 						$("#playbutton").click(function(){
 
-							 responsiveVoice.speak($(".homepagenews").text(),'Hindi Female');
+							 responsiveVoice.speak($("#homepagenews").text(),'Hindi Female');
 						
 
 						});
