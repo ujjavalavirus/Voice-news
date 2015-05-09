@@ -11,9 +11,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Voice News</title>
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="asset/js/responsivevoice.js"></script>
-	<script src="asset/js/custom.js"></script>
+	
 
 </head>
 <body>	
@@ -22,15 +20,18 @@
 <select id="voiceselection"></select> 
  
 <input onclick="responsiveVoice.speak($('#text').val(),$('#voiceselection').val());" type="button" value="Play"/>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="asset/js/responsivevoice.js"></script>
+	<script src="asset/js/custom.js"></script>
  <script type="text/javascript">
  $( document ).ready(function() {
- 
+ 		alert("SDf");
  		var voicelist = responsiveVoice.getVoices();
  		alert("test");
 		var vselect = $("#voiceselection");
 			alert("testuu");
 		$.each(voicelist, function() {
-				alert("testss");
+			//	alert("testss");
 		    vselect.append($("<option />").val(this.name).text(this.name));
 		});
 
